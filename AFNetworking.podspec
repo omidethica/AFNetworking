@@ -8,6 +8,10 @@ Pod::Spec.new do |s|
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version }
 
+  s.resource_bundles = {
+    'AFNetworking' => ['AFNetworking/PrivacyInfo.xcprivacy']
+  }
+
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '2.0'
