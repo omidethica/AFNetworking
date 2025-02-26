@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
   s.social_media_url = 'https://twitter.com/AFNetworking'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version }
+  s.source   = { :git => 'https://github.com/omidethica/AFNetworking.git', :branch => 'feature/add-privacy-manifest' }
 
   s.resource_bundles = {
     'AFNetworking' => ['AFNetworking/PrivacyInfo.xcprivacy']
